@@ -13,6 +13,10 @@
 		C21674FF2BD29FE30029522C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21674FD2BD29FE30029522C /* Main.storyboard */; };
 		C21675012BD29FE30029522C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21675002BD29FE30029522C /* Assets.xcassets */; };
 		C21675042BD29FE30029522C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21675022BD29FE30029522C /* LaunchScreen.storyboard */; };
+		C216750C2BD2A1140029522C /* DrinkMinimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C216750B2BD2A1140029522C /* DrinkMinimalTableViewCell.swift */; };
+		C216750E2BD2A1C40029522C /* drinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C216750D2BD2A1C40029522C /* drinkService.swift */; };
+		C21675102BD2A2810029522C /* CocktailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C216750F2BD2A2810029522C /* CocktailModels.swift */; };
+		C21675122BD2AF9E0029522C /* CocktailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21675112BD2AF9E0029522C /* CocktailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C21675002BD29FE30029522C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C21675032BD29FE30029522C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C21675052BD29FE30029522C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C216750B2BD2A1140029522C /* DrinkMinimalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkMinimalTableViewCell.swift; sourceTree = "<group>"; };
+		C216750D2BD2A1C40029522C /* drinkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkService.swift; sourceTree = "<group>"; };
+		C216750F2BD2A2810029522C /* CocktailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailModels.swift; sourceTree = "<group>"; };
+		C21675112BD2AF9E0029522C /* CocktailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				C21675002BD29FE30029522C /* Assets.xcassets */,
 				C21675022BD29FE30029522C /* LaunchScreen.storyboard */,
 				C21675052BD29FE30029522C /* Info.plist */,
+				C216750B2BD2A1140029522C /* DrinkMinimalTableViewCell.swift */,
+				C216750D2BD2A1C40029522C /* drinkService.swift */,
+				C216750F2BD2A2810029522C /* CocktailModels.swift */,
+				C21675112BD2AF9E0029522C /* CocktailViewController.swift */,
 			);
 			path = CocktailApp;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C216750C2BD2A1140029522C /* DrinkMinimalTableViewCell.swift in Sources */,
+				C216750E2BD2A1C40029522C /* drinkService.swift in Sources */,
 				C21674FC2BD29FE30029522C /* ViewController.swift in Sources */,
 				C21674F82BD29FE30029522C /* AppDelegate.swift in Sources */,
 				C21674FA2BD29FE30029522C /* SceneDelegate.swift in Sources */,
+				C21675122BD2AF9E0029522C /* CocktailViewController.swift in Sources */,
+				C21675102BD2A2810029522C /* CocktailModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +310,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
